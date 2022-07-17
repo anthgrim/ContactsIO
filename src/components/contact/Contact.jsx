@@ -38,6 +38,8 @@ const Contact = ({ id, name, email, phone }) => {
     phone,
   };
 
+  const title = `${name} - ${id}`;
+
   const deleteContact = (id) => {
     dispatch(deleteContactAsync(id));
     toggleDeletePopUp();
@@ -67,7 +69,7 @@ const Contact = ({ id, name, email, phone }) => {
               {initials}
             </Avatar>
           }
-          title={name}
+          title={title}
           subheader={
             <div className="contact-info">
               <span>Email: {email}</span>

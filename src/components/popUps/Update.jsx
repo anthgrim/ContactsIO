@@ -26,6 +26,9 @@ const Confirmation = ({ title, contactData, cancelAction, isOpen }) => {
 
   const updateContact = (data) => {
     dispatch(updateContactAsync(data));
+    setTimeout(() => {
+      window.location.reload();
+    }, 1500);
   };
 
   const formik = useFormik({
