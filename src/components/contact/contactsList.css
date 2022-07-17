@@ -1,0 +1,11 @@
+.contacts-container {
+  margin-right: 15%;
+  overflow-y: scroll;
+  width: fit-content;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}

@@ -1,0 +1,31 @@
+.form-container {
+  text-align: center;
+  padding: 15px;
+  padding-top: 0;
+  margin: 15px 30px;
+  height: fit-content;
+  width: 85%;
+  background: rgba(123, 169, 175, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.4px);
+  -webkit-backdrop-filter: blur(7.4px);
+  border: none;
+}
+
+.custom-btn {
+  background-color: #0e5a5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.custom-btn:hover {
+  transform: scale(1.05);
+  background-color: #212529;
+}
