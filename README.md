@@ -45,11 +45,17 @@ npm start
 - Update a contact
 - Get a contact by Id
 
-Link to AWS Deployment: **[Contacts IO](http://kevin-grimaldibankingapplication.s3-website-us-east-1.amazonaws.com/)**
+Link to AWS Deployment: **[Contacts IO](https://contactsio.netlify.app/)**
 
 ### Future Adds
 
 - Implement Backend
+- Add sign up and sign in with authorization methods with JWTs
+- Crate mobile version
+
+### Site Look
+
+![image](./src/assets/contactsio1.png)
 
 ### Author
 
